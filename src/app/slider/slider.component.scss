@@ -1,0 +1,34 @@
+.carousel-header{
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+
+.carousel.fade{
+  opacity: 1!important;
+}
+
+.carousel.fade .carousel-item{
+  opacity: 0;
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel.fade .carousel-item.active{
+  opacity: 1;
+  position: relative;
+
+}
+
+.carousel-item{
+  height: 45vw;
+}
+
+@media screen and (max-width: 460px){
+  .carousel-header{
+    margin-top: 0;
+  }
+}

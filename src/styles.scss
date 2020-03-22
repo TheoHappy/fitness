@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  //font-size: 10px;
+  height: 100%;
+  //font-family: "Roboto Thin", sans-serif;
+}
+
+
+
+
+.page-wrapper{
+  position: relative;
+  min-height: 100%;
+}
+.page-content{
+  padding-bottom: 150px;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+
+//============================================Footer============================================
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #000000;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.social img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.social img:hover {
+  background: rgba(73, 33, 49, 0.94);
+  border-radius:50%;
+}
+
+.copyright p{
+  color: #fff;
+  text-align: center;
+}
+
+//============================================Media Content============================================
+
+
