@@ -1,25 +1,3 @@
-//.card{
-//  width: 320px;
-//  height: 180px;
-//}
-//
-//.card .card-img {
-//  width: 320px;
-//  height: 180px;
-//  opacity: 0.8;
-//  filter: alpha(opacity)=80 black;
-//  background-color: #000000;
-//
-//}
-//
-//.card-text{
-//  width: 220px;
-//  height: 120px;
-//  font-weight: 700;
-//  text-transform: uppercase;
-//}
-//
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 $body-bg-color: #212121;
@@ -201,4 +179,10 @@ body {
   letter-spacing: 5px;
   line-height: 2;
   text-transform: uppercase;
+}
+
+.text-block{
+  //width: 200px;
+  background-color: #222222;
+  color: white;
 }
